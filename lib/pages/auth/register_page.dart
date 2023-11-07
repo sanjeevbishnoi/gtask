@@ -22,7 +22,7 @@ class RegisterPageState extends State<RegisterPage> {
   final _formKey = GlobalKey<FormState>();
   final _scaffoldKey = GlobalKey<ScaffoldState>();
   Uint8List? _file;
-  bool _isVisible = false;
+  bool _isVisible = true;
 
   @override
   void initState() {

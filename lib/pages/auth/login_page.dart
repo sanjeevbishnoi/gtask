@@ -19,7 +19,7 @@ class LoginPageState extends State<LoginPage> {
   late TextEditingController _passwordController;
   final _formKey = GlobalKey<FormState>();
   final _scaffoldKey = GlobalKey<ScaffoldState>();
-  bool _isVisible = false;
+  bool _isVisible = true;
 
   @override
   void initState() {
